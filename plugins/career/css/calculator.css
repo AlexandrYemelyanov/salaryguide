@@ -1,0 +1,161 @@
+.cCalc__wrap {
+    position: relative;
+    height: 100%;
+}
+.cCalc__graph {
+    height: 456px;
+    z-index: 1;
+    margin: 42px 0 60px;
+    padding: 30px 0 116px;
+    position: relative;
+    background: url("../images/calc-bg.png") no-repeat 50%;
+}
+
+.cCalc__resultat::before {
+    width: 50px;
+}
+
+.cCalc__resultat::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    background: #333;
+}
+
+.cCalc__resultat {
+    margin-right: 90px;
+    padding: 0 10px;
+}
+
+.cCalc__resultat {
+    position: absolute;
+    right: 50%;
+    margin-right: 57px;
+    padding: 8px;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    background: hsla(0,0%,100%,.8);
+    font-size: 16px;
+    line-height: 1;
+    text-align: right;
+}
+
+.cCalc__label {
+    display: inline;
+}
+
+.cCalc__label--resp {
+    display: none;
+}
+
+.cCalc__resultat strong {
+    font-weight: 700;
+}
+
+.cCalc__bar::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #002b77;
+}
+
+.cCalc__bar {
+    width: 30px;
+    height: 1%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -15px;
+    background-color: #002b77;
+    background: -moz-linear-gradient(top,#00a0da 0,#002b77 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#00a0da),to(#002b77));
+    background: -webkit-gradient(linear,left top,left bottom,from(#00a0da),to(#002b77));
+    background: linear-gradient(180deg,#00a0da 0,#002b77);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr="#00a0da",EndColorStr="#002B77");
+    -webkit-transition: height 1s;
+    transition: height 1s;
+}
+
+.cCalc__bottom {
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    bottom: 13px;
+    left: 50%;
+    margin-left: -47px;
+    background: #002b77;
+    border-radius: 50px;
+}
+
+#calculator-selects input {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.cCalc__resultat--tu::before {
+    width: 100px;
+    background: #00a0da;
+}
+
+.cCalc__resultat::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    background: #333;
+}
+.cCalc__resultat--tu {
+    margin-right: 140px;
+}
+.cCalc__resultat--tu {
+    color: #00a0da;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: .9;
+    z-index: 9;
+}
+.cCalc__resultat {
+    position: absolute;
+    right: 50%;
+    margin-right: 90px;
+    padding: 0 10px;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    background: hsla(0,0%,100%,.8);
+    font-size: 16px;
+    line-height: 1;
+    text-align: right;
+}
+#calculator-write-us {
+    display: none;
+}
+.cCalc__resultat--tu {
+		left: 62%;
+		width: 26%;
+	}
+#seleccionat::before {
+		left: -10%;
+	}
+@media only screen and (max-width: 480px) {
+	#seleccionat::before {
+		left: -10%;
+	}
+	.cCalc__resultat--tu {
+		left: 65%;
+		width: 30%;
+	}
+	.cCalc__resultat {
+		right: 43%;
+	}
+}

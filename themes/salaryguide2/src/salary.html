@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Hays">
+  <meta name="description" content="Hays">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hays</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
+  <link rel="stylesheet" href="assets/css/main.min.css">
+</head>
+<body>
+<!-- Begin wrapper -->
+  <div class="wrapper">
+  <!-- Begin header -->
+    <header class="header">
+    <!-- Begin header__top -->
+      <div class="header__top">
+        <div class="container flex middle">
+          <a class="header__logo" href="/"><img src="assets/img/header/logo.svg" alt="Hays"></a>
+          <div class="header__menu flex middle">
+            <ul class="header__menu_list flex middle">
+              <li><a href="#">Видео</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Опрос</a></li>
+            </ul>
+            <a class="header__menu_download flex_inline middle" href="#">Скачать Salary Guide<span class="icon_download"></span></a>
+          </div>
+          <div class="header__social flex middle end">
+            <a class="header__social_icon icon_facebook" href="#"></a>
+            <a class="header__social_icon icon_instagram" href="#"></a>
+            <a class="header__social_icon icon_youtube" href="#"></a>
+            <a class="header__social_icon icon_linkedin" href="#"></a>
+            <a class="header__social_icon icon_telegram" href="#"></a>
+          </div>
+          <a class="header__burger icon_menu" href="#nav"></a>
+        </div>
+      </div>
+    <!-- End header__top -->
+    <!-- Begin header__nav -->
+      <nav class="header__nav" id="nav">
+        <a class="header__nav_close icon_close" href="#nav"></a>
+        <ul class="header__nav_list flex middle center">
+          <li class="is_active"><a href="#">Зарплатный барометр</a></li>
+          <li><a href="#">Карьерный план</a></li>
+          <li><a href="#">О секторе</a></li>
+          <li><a href="#">Конструктор резюме</a></li>
+          <li><a href="#">Обзор рынка труда</a></li>
+        </ul>
+      </nav>
+    <!-- End header__nav -->
+    </header>
+  <!-- End header -->
+
+  <!-- Begin main_sm -->
+    <div class="main_sm" style="background-image: url(assets/img/main_sm/bg1.jpg)">
+      <div class="container">
+        <ul class="bradcrumbs flex middle">
+          <li><a href="/">Главная</a></li>
+        </ul>
+        <div class="main_sm__info">
+          <h1 class="main_sm__title">Зарплатный барометр</h1>
+          <p class="main_sm__text">Лучший способ продемонстрировать приверженность нашим клиентам и кандидатам - это наши амбиции по отношению к ним. Их успех - это наш успех, поэтому мы не сдерживаемся.</p>
+        </div>
+      </div>
+    </div>
+  <!-- End main_sm -->
+
+  <!-- Begin salary -->
+    <div class="salary">
+      <div class="container flex top">
+      <!-- Begin salary__left -->
+        <div class="salary__left">
+          <h2 class="salary__title">Узнайте сколько <span>получают специалисты</span></h2>
+          <img class="salary__icon" src="assets/img/salary/icon.svg" alt="">
+        </div>
+      <!-- End salary__left -->
+      <!-- Begin salary__right -->
+        <div class="salary__right">
+          <p class="salary__text">Заполните поля ниже и узнайте, сколько получают специалисты разеых сфер. Наш барометр покажет максимальную, минимальную и среднюю заработную плату в отрасли без учета бонусов</p>
+        <!-- Begin form -->
+          <form class="salary__form form" action="#">
+          <!-- Begin form__row -->
+            <div class="form__row flex top">
+              <label class="form__item form__item--col4 is_error">
+                <span class="form__label">Название позиции <span>*</span></span>
+                <select class="form__select" name="name">
+                  <option value="1">Специалист по управлению цепями поставок</option>
+                  <option value="2">Специалист по управлению цепями поставок</option>
+                  <option value="3">Специалист по управлению цепями поставок</option>
+                </select>
+                <span class="form__error">Поле заполнено некорректно</span>
+              </label>
+              <label class="form__item form__item--col4">
+                <span class="form__label">Отрасль <span>*</span></span>
+                <select class="form__select" name="industry">
+                  <option value="1">Автомобильный бизнес и спецтехника</option>
+                  <option value="2">Автомобильный бизнес и спецтехника</option>
+                  <option value="3">Автомобильный бизнес и спецтехника</option>
+                  <option value="4">Автомобильный бизнес и спецтехника</option>
+                </select>
+                <span class="form__error">Поле заполнено некорректно</span>
+              </label>
+            </div>
+          <!-- End form__row -->
+          <!-- Begin form__row -->
+            <div class="form__row flex top">
+              <label class="form__item form__item--col4">
+                <span class="form__label">Направление <span>*</span></span>
+                <select class="form__select" name="direction">
+                  <option value="1">Продажи</option>
+                  <option value="2">Продажи</option>
+                  <option value="3">Продажи</option>
+                  <option value="4">Продажи</option>
+                </select>
+                <span class="form__error">Поле заполнено некорректно</span>
+              </label>
+              <label class="form__item form__item--col4">
+                <span class="form__label">Тип компании <span>*</span></span>
+                <select class="form__select" name="type">
+                  <option value="1">Производственная компания</option>
+                  <option value="2">Производственная компания</option>
+                </select>
+                <span class="form__error">Поле заполнено некорректно</span>
+              </label>
+            </div>
+          <!-- End form__row -->
+          <!-- Begin form__row -->
+            <div class="form__row flex top">
+              <label class="form__item form__item--col4">
+                <span class="form__label">Регион <span>*</span></span>
+                <select class="form__select" name="region">
+                  <option value="1">Москва и МО</option>
+                  <option value="2">Москва и МО</option>
+                  <option value="3">Москва и МО</option>
+                  <option value="4">Москва и МО</option>
+                </select>
+                <span class="form__error">Поле заполнено некорректно</span>
+              </label>
+              <label class="form__item form__item--col4">
+                <span class="form__label">Текущая зарплата, руб. <span>*</span></span>
+                <input class="form__input" type="text" name="salary">
+                <span class="form__error">Поле заполнено некорректно</span>
+              </label>
+            </div>
+          <!-- End form__row -->
+          <!-- Begin form__row -->
+            <div class="form__row flex top">
+              <div class="form__item form__item--submit">
+                <button class="form__btn btn btn--big" type="submit">Проверить результат</button>
+              </div>
+            </div>
+          <!-- End form__row -->
+          </form>
+        <!-- End form -->
+        </div>
+      <!-- End salary__right -->
+      <!-- Begin salary__info -->
+        <div class="salary__info">
+          <div class="flex top">
+          <!-- Begin salary__info_left -->
+            <div class="salary__info_left levels">
+              <div class="levels__list">
+                <div class="levels__item">
+                  <span class="levels__label"><span>Ваша</span> 100К</span>
+                  <div class="levels__line">
+                    <div class="levels__width levels__width--white" style="width: 10%"></div>
+                  </div>
+                </div>
+                <div class="levels__item">
+                  <span class="levels__label"><span>Средняя</span> 230К</span>
+                  <div class="levels__line">
+                    <div class="levels__width" style="width: 78%"></div>
+                  </div>
+                </div>
+                <div class="levels__item">
+                  <span class="levels__label"><span>Максимальная</span> 250К</span>
+                  <div class="levels__line">
+                    <div class="levels__width" style="width: 89%"></div>
+                  </div>
+                </div>
+                <div class="levels__item">
+                  <span class="levels__label"><span>Минимальная</span> 200К</span>
+                  <div class="levels__line">
+                    <div class="levels__width" style="width: 63%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="levels__range flex middle between">
+                <span>80К</span>
+                <span>180К</span>
+                <span>270К</span>
+              </div>
+              <p class="levels__download"><a class="flex_inline middle" href="#"><span class="icon_download"></span>Скачать уровень зарплат</a></p>
+            </div>
+          <!-- End salary__info_left -->
+          <!-- Begin salary__info_right -->
+            <div class="salary__info_right">
+              <p class="salary__info_text">В 2017 году давление на зарплаты на должностях, которые требуют высокой квалификации (один из семи компонентов), в России было зафиксировано на уровне 4,8 балла. В 2018-м оно составило 5,6 балла, а в 2019 году — 7,2.</p>
+              <p class="salary__info_btn"><a class="btn btn--big" href="#">Отправить резюме<span class="icon_arrow_right2"></span></a></p>
+              <a class="salary__info_link flex_inline middle" href="#"><span class="icon_email"></span>CTA для клиентов</a>
+            </div>
+          <!-- End salary__info_right -->
+          </div>
+        </div>
+      <!-- End salary__info -->
+      </div>
+    </div>
+  <!-- End salary -->
+
+  <!-- Begin footer -->
+    <footer class="footer">
+      <div class="container">
+      <!-- Begin footer__top -->
+        <div class="footer__top flex top">
+          <div class="footer__col">
+            <p class="footer__col_title">Вакансии<span class="icon_arrow_down"></span></p>
+            <ul class="footer__menu">
+              <li><a href="#">Вакансии в Москве</a></li>
+              <li><a href="#">Вакансии в Санкт-Петербурге</a></li>
+              <li><a href="#">Вакансии в Краснодаре</a></li>
+              <li><a href="#">Вакансии в Екатеринбурге</a></li>
+              <li><a href="#">Вакансии в Новосибирске</a></li>
+              <li><a href="#">Вакансии в Самаре</a></li>
+              <li><a href="#">Вакансии в Казани</a></li>
+              <li><a href="#">Вакансии в Нижнем Новгороде</a></li>
+              <li><a href="#">Вакансии в Ростове-на-Дону</a></li>
+              <li><a href="#">Вакансии в Тюмени</a></li>
+              <li><a href="#">Вакансии во Владивостоке</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <p class="footer__col_title">Популярные вакансии<span class="icon_arrow_down"></span></p>
+            <ul class="footer__menu">
+              <li><a href="#">Финансовый сектор</a></li>
+              <li><a href="#">Телекоммуникации и связь</a></li>
+              <li><a href="#">Розничная торговля</a></li>
+              <li><a href="#">Информационные технологии и разработка</a></li>
+              <li><a href="#">Консалтинг</a></li>
+              <li><a href="#">Образовательный сектор</a></li>
+              <li><a href="#">Инжиниринг</a></li>
+              <li><a href="#">Медицина и здравоохранение</a></li>
+              <li><a href="#">Автомобильный бизнес</a></li>
+              <li><a href="#">Другие вакансии</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <p class="footer__col_title">Наши услуги<span class="icon_arrow_down"></span></p>
+            <ul class="footer__menu">
+              <li><a href="#">Подбор персонала</a></li>
+              <li><a href="#">Hays Mapping</a></li>
+              <li><a href="#">Аутплейсмент</a></li>
+              <li><a href="#">Инструменты оценки</a></li>
+              <li><a href="#">Аутсорсинг рекрутмента</a></li>
+              <li><a href="#">Аутсорсинг бизнес-процессов</a></li>
+              <li><a href="#">Админимтрирование бизнес-прецессов</a></li>
+              <li><a href="#">Learning & Devepment</a></li>
+              <li><a href="#">Временный персонал</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <p class="footer__col_title">Связаться с нами<span class="icon_arrow_down"></span></p>
+            <div class="footer__contacts">
+              <div class="footer__contacts_item">
+                <span class="footer__contacts_label">Адрес</span>
+                <p>115054, г. Москва, Павелецкая площадь, д.2, стр.2, 3 этаж. помещение 1, комната 35</p>
+              </div>
+              <div class="footer__contacts_item">
+                <span class="footer__contacts_label">Телефон</span>
+                <a class="footer__contacts_tel" href="tel:+74952282208">+7 (495) 228-22-08</a>
+              </div>
+              <div class="footer__contacts_item">
+                <span class="footer__contacts_label">Эл. почта</span>
+                <a class="footer__contacts_mail" href="mailto:moscow@hays.ru">moscow@hays.ru</a>
+              </div>
+              <div class="footer__contacts_item">
+                <a class="btn" href="#">Контакты</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- End footer__top -->
+      <!-- Begin footer__bottom -->
+        <div class="footer__bottom">
+          <p class="footer__bottom_copy">&copy; Copyright Hays plc 2021. HAYS, устройства для корпоративных клиентов и секторов H, специалисты по подбору персонала по всему миру, логотип HAYS Recruiting экспертов по всему миру и Powering the World of Work являются товарными знаками Hays plc. Устройства Corporate и Sector H - это оригинальные разработки, защищенные регистрацией во многих странах. Все права защищены.</p>
+          <ul class="footer__bottom_menu flex middle">
+            <li><a href="#">Политика обработки файлов cookie</a></li>
+            <li><a href="#">Политика обработки ПД</a></li>
+            <li><a href="#">Для инвесторов</a></li>
+            <li><a href="#">Карта сайта</a></li>
+          </ul>
+        </div>
+      <!-- End footer__bottom -->
+      </div>
+    </footer>
+  <!-- End footer -->
+  </div>
+<!-- End wrapper -->
+
+<!-- Begin scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/i18n/ru.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+  <script src="assets/js/main.min.js"></script>
+<!-- End scripts -->
+</body>
+</html>

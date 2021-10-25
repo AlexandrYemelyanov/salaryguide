@@ -1,0 +1,329 @@
+<svg width="708" height="400" viewBox="0 0 708 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes salary1 {
+      0% {
+        fill: #165EA0;
+        stroke: #165EA0;
+      }
+      4.5454%, 9.0909% {
+        fill: transparent;
+        stroke: #009FDA;
+      }
+      13.6363%, 100% {
+        fill: #165EA0;
+        stroke: #165EA0;
+      }
+    }
+    .salary1 {
+      animation: salary1 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary_g_1_up {
+      0% {
+        transform: translateY(0);
+      }
+      4.5454%, 9.0909% {
+        transform: translateY(-34px);
+      }
+      13.6363%, 100% {
+        transform: translateY(0);
+      }
+    }
+    .salary_g_1 {
+      animation: salary_g_1_up 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary2 {
+      0% {
+        stroke-opacity: 0;
+      }
+      4.5454%, 9.0909% {
+        stroke-opacity: 1;
+      }
+      13.6363%, 100% {
+        stroke-opacity: 0;
+      }
+    }
+    .salary2 {
+      animation: salary2 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary3 {
+      0%, 13.6363% {
+        fill: #165EA0;
+        stroke: #165EA0;
+      }
+      18.1818%, 22.7272% {
+        fill: transparent;
+        stroke: #009FDA;
+      }
+      27.2727%, 100% {
+        fill: #165EA0;
+        stroke: #165EA0;
+      }
+    }
+    .salary3 {
+      animation: salary3 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary_g_2_up {
+      0%, 13.6363% {
+        transform: translateY(0);
+      }
+      18.1818%, 22.7272% {
+        transform: translateY(-34px);
+      }
+      27.2727%, 100% {
+        transform: translateY(0);
+      }
+    }
+    .salary_g_2 {
+      animation: salary_g_2_up 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary4 {
+      0%, 13.6363% {
+        stroke-opacity: 0;
+      }
+      18.1818%, 22.7272% {
+        stroke-opacity: 1;
+      }
+      27.2727%, 100% {
+        stroke-opacity: 0;
+      }
+    }
+    .salary4 {
+      animation: salary4 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary5 {
+      0%, 27.2727% {
+        fill: #165EA0;
+        stroke: #165EA0;
+      }
+      31.8181%, 36.3636% {
+        fill: transparent;
+        stroke: #009FDA;
+      }
+      40.9090%, 100% {
+        fill: #165EA0;
+        stroke: #165EA0;
+      }
+    }
+    .salary5 {
+      animation: salary5 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary_g_3_up {
+      0%, 27.2727% {
+        transform: translateY(0);
+      }
+      31.8181%, 36.3636% {
+        transform: translateY(-34px);
+      }
+      40.9090%, 100% {
+        transform: translateY(0);
+      }
+    }
+    .salary_g_3 {
+      animation: salary_g_3_up 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary6 {
+      0%, 27.2727% {
+        stroke-opacity: 0;
+      }
+      31.8181%, 36.3636% {
+        stroke-opacity: 1;
+      }
+      40.9090%, 100% {
+        stroke-opacity: 0;
+      }
+    }
+    .salary6 {
+      animation: salary6 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary7 {
+      0%, 40.9090% {
+        fill: #165EA0;
+        stroke: #165EA0;
+      }
+      45.4545%, 50% {
+        fill: transparent;
+        stroke: #009FDA;
+      }
+      54.5454%, 100% {
+        fill: #165EA0;
+        stroke: #165EA0;
+      }
+    }
+    .salary7 {
+      animation: salary7 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary_g_4_up {
+      0%, 40.9090% {
+        transform: translateY(0);
+      }
+      45.4545%, 50% {
+        transform: translateY(-34px);
+      }
+      54.5454%, 100% {
+        transform: translateY(0);
+      }
+    }
+    .salary_g_4 {
+      animation: salary_g_4_up 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary8 {
+      0%, 40.9090% {
+        stroke-opacity: 0;
+      }
+      45.4545%, 50% {
+        stroke-opacity: 1;
+      }
+      54.5454%, 100% {
+        stroke-opacity: 0;
+      }
+    }
+    .salary8 {
+      animation: salary8 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary9 {
+      0%, 54.5454% {
+        fill: #165EA0;
+        stroke: #165EA0;
+      }
+      59.0909%, 63.6363% {
+        fill: transparent;
+        stroke: #009FDA;
+      }
+      68.1818%, 100% {
+        fill: #165EA0;
+        stroke: #165EA0;
+      }
+    }
+    .salary9 {
+      animation: salary9 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary_g_5_up {
+      0%, 54.5454% {
+        transform: translateY(0);
+      }
+      59.0909%, 63.6363% {
+        transform: translateY(-34px);
+      }
+      68.1818%, 100% {
+        transform: translateY(0);
+      }
+    }
+    .salary_g_5 {
+      animation: salary_g_5_up 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary10 {
+      0%, 54.5454% {
+        stroke-opacity: 0;
+      }
+      59.0909%, 63.6363% {
+        stroke-opacity: 1;
+      }
+      68.1818%, 100% {
+        stroke-opacity: 0;
+      }
+    }
+    .salary10 {
+      animation: salary10 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary11 {
+      0%, 68.1818% {
+        fill: #165EA0;
+        stroke: #165EA0;
+      }
+      72.7272%, 77.2727% {
+        fill: transparent;
+        stroke: #009FDA;
+      }
+      81.8181%, 100% {
+        fill: #165EA0;
+        stroke: #165EA0;
+      }
+    }
+    .salary11 {
+      animation: salary11 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary_g_6_up {
+      0%, 68.1818% {
+        transform: translateY(0);
+      }
+      72.7272%, 77.2727% {
+        transform: translateY(-34px);
+      }
+      81.8181%, 100% {
+        transform: translateY(0);
+      }
+    }
+    .salary_g_6 {
+      animation: salary_g_6_up 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes salary12 {
+      0%, 68.1818% {
+        stroke-opacity: 0;
+      }
+      72.7272%, 77.2727% {
+        stroke-opacity: 1;
+      }
+      81.8181%, 100% {
+        stroke-opacity: 0;
+      }
+    }
+    .salary12 {
+      animation: salary12 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes triangle {
+      0%, 4.5454%, 9.0909%, 13.6363% {
+        transform: translateX(0);
+      }
+      13.6363%, 18.1818%, 22.7272%, 27.2727% {
+        transform: translateX(104px);
+      }
+      27.2727%, 31.8181%, 36.3636%, 40.9090% {
+        transform: translateX(208px);
+      }
+      40.9090%, 45.4545%, 50%, 54.5454% {
+        transform: translateX(312px);
+      }
+      54.5454%, 59.0909%, 63.6363%, 68.1818% {
+        transform: translateX(416px);
+      }
+      68.1818%, 72.7272%, 77.2727%, 81.8181% {
+        transform: translateX(520px);
+      }
+    }
+    .triangle {
+      animation: triangle 6600ms ease-in infinite normal forwards;
+    }
+  </style>
+  <path d="M46 316V309C46 304.582 49.5817 301 54 301H142V316H46Z" fill="#165EA0" stroke="#165EA0" stroke-linecap="square" stroke-width="4" class="salary1"/>
+  <g class="salary_g_1">
+    <path d="M107 295V286.707C107 279.972 101.18 275 94 275M81 295L81 286.707C81 279.972 86.8203 275 94 275M94 275C99.7438 275 104 270.388 104 265C104 259.612 99.7438 255 94 255C88.2562 255 84 259.612 84 265C84 270.388 88.2562 275 94 275Z" stroke="#165EA0" stroke-width="4"/>
+    <rect x="54" y="235" width="80" height="80" rx="40" stroke="#009FDA" stroke-width="4" stroke-opacity="0" class="salary2"/>
+  </g>
+  <path d="M150 316V289C150 284.582 153.582 281 158 281H246V316H150Z" fill="#165EA0" stroke="#165EA0" stroke-linecap="square" stroke-width="4" class="salary3"/>
+  <g class="salary_g_2">
+    <path d="M211 275V266.707C211 259.972 205.18 255 198 255M185 275L185 266.707C185 259.972 190.82 255 198 255M198 255C203.744 255 208 250.388 208 245C208 239.612 203.744 235 198 235C192.256 235 188 239.612 188 245C188 250.388 192.256 255 198 255Z" stroke="#165EA0" stroke-width="4"/>
+    <rect x="158" y="215" width="80" height="80" rx="40" stroke="#009FDA" stroke-opacity="0" stroke-width="4" class="salary4"/>
+  </g>
+  <path d="M254 316V269C254 264.582 257.582 261 262 261H350V316H254Z" fill="#165EA0" stroke="#165EA0" stroke-linecap="square" stroke-width="4" class="salary5"/>
+  <g class="salary_g_3">
+    <path d="M315 255V246.707C315 239.972 309.18 235 302 235M289 255L289 246.707C289 239.972 294.82 235 302 235M302 235C307.744 235 312 230.388 312 225C312 219.612 307.744 215 302 215C296.256 215 292 219.612 292 225C292 230.388 296.256 235 302 235Z" stroke="#165EA0" stroke-width="4"/>
+    <rect x="262" y="195" width="80" height="80" rx="40" stroke="#009FDA" stroke-opacity="0" stroke-width="4" class="salary6"/>
+  </g>
+  <path d="M358 316V229C358 224.582 361.582 221 366 221H454V316H358Z" fill="#165EA0" stroke="#165EA0" stroke-linecap="square" stroke-width="4" class="salary7"/>
+  <g class="salary_g_4">
+    <path d="M419 215V206.707C419 199.972 413.18 195 406 195M393 215L393 206.707C393 199.972 398.82 195 406 195M406 195C411.744 195 416 190.388 416 185C416 179.612 411.744 175 406 175C400.256 175 396 179.612 396 185C396 190.388 400.256 195 406 195Z" stroke="#165EA0" stroke-width="4"/>
+    <rect x="366" y="155" width="80" height="80" rx="40" stroke="#009FDA" stroke-opacity="0" stroke-width="4" class="salary8"/>
+  </g>
+  <path d="M558 316H462V189C462 184.582 465.582 181 470 181H558V316Z" fill="#165EA0" stroke="#165EA0" stroke-linecap="square" stroke-width="4" class="salary9"/>
+  <g class="salary_g_5">
+    <path d="M523 175V166.707C523 159.972 517.18 155 510 155M497 175L497 166.707C497 159.972 502.82 155 510 155M510 155C515.744 155 520 150.388 520 145C520 139.612 515.744 135 510 135C504.256 135 500 139.612 500 145C500 150.388 504.256 155 510 155Z" stroke="#165EA0" stroke-width="4"/>
+    <rect x="470" y="115" width="80" height="80" rx="40" stroke="#009FDA" stroke-opacity="0" stroke-width="4" class="salary10"/>
+  </g>
+  <path d="M662 316H566V139C566 134.582 569.582 131 574 131H654C658.418 131 662 134.582 662 139V316Z" fill="#165EA0" stroke="#165EA0" stroke-linecap="square" stroke-width="4" class="salary11"/>
+  <g class="salary_g_6">
+    <path d="M627 125V116.707C627 109.972 621.18 105 614 105M601 125L601 116.707C601 109.972 606.82 105 614 105M614 105C619.744 105 624 100.388 624 95C624 89.6119 619.744 85 614 85C608.256 85 604 89.6119 604 95C604 100.388 608.256 105 614 105Z" stroke="#165EA0" stroke-width="4"/>
+    <rect x="574" y="65" width="80" height="80" rx="40" stroke="#009FDA" stroke-opacity="0" stroke-width="4" class="salary12"/>
+  </g>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M684 326H24V322H684V326Z" fill="#009FDA"/>
+  <path d="M107 334L94 334L81 334L94.0002 310L107 334Z" fill="#009FDA" stroke="#022675" stroke-width="4" class="triangle"/>
+</svg>

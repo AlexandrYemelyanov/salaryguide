@@ -1,0 +1,36 @@
+<?php
+/**
+ * The page.
+ *
+ * @package WordPress
+ * @subpackage Salary Guide Hays 2
+ * @since Salary Guide 2.0
+ */
+
+get_header();
+
+//salaryguideCreatePDF();
+
+?>
+
+<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+
+    <!-- Begin constructor -->
+    <div class="constructor">
+        <div class="container">
+            <div class="constructor__info">
+                <img class="constructor__icon" src="/wp-content/themes/salaryguide2/assets/img/blocks/cv_blue.svg" alt="">
+                <p class="constructor__text">8 простых шагов и вы получите готовое резюме</p>
+                <a class="btn btn--big" href="/create-resume/">Создать резюме</a>
+
+            </div>
+        </div>
+    </div>
+    <!-- End constructor -->
+
+    <div class="container flex middle">
+        <?php the_content();  ?>
+    </div>
+
+<?php endwhile; ?>
+<?php get_footer(); ?>

@@ -1,0 +1,387 @@
+<svg width="708" height="400" viewBox="0 0 708 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes career1_fill {
+      0% {
+        fill: transparent;
+      }
+      3.5714%, 100% {
+        fill: rgb(0, 159, 218);
+      }
+    }
+    .career1 {
+      animation: career1_fill 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career2_stroke {
+      0%, 3.5714% {
+        stroke-dashoffset: 120.47035217285156;
+      }
+      7.1428%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career2 {
+      animation: career2_stroke 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career_g_1_scale {
+      0%, 7.1428% {
+        transform: translate(67px, 213px) scale(0, 0);
+      }
+      10.7142%, 100% {
+        transform: translate(67px, 213px) scale(1, 1);
+      }
+    }
+    .career_g_1 {
+      animation: career_g_1_scale 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career3_fill {
+      0%, 7.1428% {
+        fill: transparent;
+      }
+      10.7142%, 100% {
+        fill: rgb(0, 159, 218);
+      }
+    }
+    .career3 {
+      animation: career3_fill 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career4_fill {
+      0%, 10.7142% {
+        fill: transparent;
+      }
+      14.2857%, 100% {
+        fill: rgb(255, 255, 255);
+      }
+    }
+    .career4 {
+      animation: career4_fill 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career5_stroke {
+      0%, 14.2857% {
+        stroke-dashoffset: 92.51911926269531;
+      }
+      17.8571%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career5 {
+      animation: career5_stroke 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career6_stroke {
+      0%, 17.8571% {
+        stroke-dashoffset: 92;
+      }
+      21.4285%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career6 {
+      animation: career6_stroke 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career7_stroke {
+      0%, 21.4285% {
+        stroke-dashoffset: 82.58937072753906;
+      }
+      25%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career7 {
+      animation: career7_stroke 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career8_fill {
+      0%, 25% {
+        fill: transparent;
+      }
+      28.5714%, 100% {
+        fill: rgb(0, 159, 218);
+      }
+    }
+    .career8 {
+      animation: career8_fill 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career9_stroke {
+      0%, 28.5714% {
+        stroke-dashoffset: 120.47084045410156;
+      }
+      32.1428%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career9 {
+      animation: career9_stroke 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career_g_2_scale {
+      0%, 32.1428% {
+        transform: translate(267px, 213px) scale(0, 0);
+      }
+      35.7142%, 100% {
+        transform: translate(267px, 213px) scale(1, 1);
+      }
+    }
+    .career_g_2 {
+      animation: career_g_2_scale 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career10_fill {
+      0%, 32.1428% {
+        fill: transparent;
+      }
+      35.7142%, 100% {
+        fill: rgb(0, 159, 218);
+      }
+    }
+    .career10 {
+      animation: career10_fill 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career11_fill {
+      0%, 35.7142% {
+        fill: transparent;
+      }
+      39.2857%, 100% {
+        fill: rgb(255, 255, 255);
+      }
+    }
+    .career11 {
+      animation: career11_fill 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career12_stroke {
+      0%, 39.2857% {
+        stroke-dashoffset: 92.51911926269531;
+      }
+      42.8571%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career12 {
+      animation: career12_stroke 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career13_stroke {
+      0%, 42.8571% {
+        stroke-dashoffset: 161.9713592529297;
+      }
+      46.4285%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career13 {
+      animation: career13_stroke 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career14_stroke {
+      0%, 46.4285% {
+        stroke-dashoffset: 82.58937072753906;
+      }
+      50%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career14 {
+      animation: career14_stroke 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career15_fill {
+      0%, 50% {
+        fill: transparent;
+      }
+      53.5714%, 100% {
+        fill: rgb(0, 159, 218);
+      }
+    }
+    .career15 {
+      animation: career15_fill 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career16_stroke {
+      0%, 53.5714% {
+        stroke-dashoffset: 120.47118377685547;
+      }
+      57.1428%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career16 {
+      animation: career16_stroke 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career_g_3_scale {
+      0%, 57.1428% {
+        transform: translate(467px, 113px) scale(0, 0);
+      }
+      60.7142%, 100% {
+        transform: translate(467px, 113px) scale(1, 1);
+      }
+    }
+    .career_g_3 {
+      animation: career_g_3_scale 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career17_fill {
+      0%, 57.1428% {
+        fill: transparent;
+      }
+      60.7142%, 100% {
+        fill: rgb(0, 159, 218);
+      }
+    }
+    .career17 {
+      animation: career17_fill 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career18_fill {
+      0%, 60.7142% {
+        fill: transparent;
+      }
+      64.2857%, 100% {
+        fill: rgb(255, 255, 255);
+      }
+    }
+    .career18 {
+      animation: career18_fill 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career19_stroke {
+      0%, 64.2857% {
+        stroke-dashoffset: 92.51907348632812;
+      }
+      67.8571%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career19 {
+      animation: career19_stroke 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career20_stroke {
+      0%, 67.8571% {
+        stroke-dashoffset: 92;
+      }
+      71.4285%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career20 {
+      animation: career20_stroke 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career21_stroke {
+      0%, 71.4285% {
+        stroke-dashoffset: 82.58937072753906;
+      }
+      75%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career21 {
+      animation: career21_stroke 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career22_fill {
+      0%, 75% {
+        fill: transparent;
+      }
+      78.5714%, 100% {
+        fill: rgb(0, 159, 218);
+      }
+    }
+    .career22 {
+      animation: career22_fill 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career23_stroke {
+      0%, 78.5714% {
+        stroke-dashoffset: 120.47127532958984;
+      }
+      82.1428%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career23 {
+      animation: career23_stroke 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career_g_4_scale {
+      0%, 82.1428% {
+        transform: translate(667px, 113px) scale(0, 0);
+      }
+      85.7142%, 100% {
+        transform: translate(667px, 113px) scale(1, 1);
+      }
+    }
+    .career_g_4 {
+      animation: career_g_4_scale 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career24_fill {
+      0%, 82.1428% {
+        fill: transparent;
+      }
+      85.7142%, 100% {
+        fill: rgb(0, 159, 218);
+      }
+    }
+    .career24 {
+      animation: career24_fill 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career25_fill {
+      0%, 85.7142% {
+        fill: transparent;
+      }
+      89.2857%, 100% {
+        fill: rgb(255, 255, 255);
+      }
+    }
+    .career25 {
+      animation: career25_fill 6600ms ease-in infinite normal forwards;
+    }
+    @keyframes career26_stroke {
+      0%, 89.2857% {
+        stroke-dashoffset: 92.51902770996094;
+      }
+      92.8571%, 100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    .career26 {
+      animation: career26_stroke 6600ms ease-in infinite normal forwards;
+    }
+  </style>
+  <path d="M54 238C33.0132 238 16 220.987 16 200H12C12 223.196 30.804 242 54 242V238ZM92 200C92 220.987 74.9868 238 54 238V242C77.196 242 96 223.196 96 200H92ZM54 162C74.9868 162 92 179.013 92 200H96C96 176.804 77.196 158 54 158V162ZM54 158C30.804 158 12 176.804 12 200H16C16 179.013 33.0132 162 54 162V158Z" fill="transparent" class="career1"/>
+  <path d="M67 220V211.707C67 204.972 61.1797 200 54 200M41 220L41 211.707C41 204.972 46.8203 200 54 200M54 200C59.7438 200 64 195.388 64 190C64 184.612 59.7438 180 54 180C48.2562 180 44 184.612 44 190C44 195.388 48.2562 200 54 200Z" stroke="#165EA0" stroke-width="4" stroke-dasharray="120.47035217285156" class="career2"/>
+  <g class="career_g_1" transform="translate(67,213) scale(0,0)">
+    <g transform="translate(-67,-213)">
+      <rect x="67" y="213" width="29" height="29" rx="14.5" fill="transparent" class="career3"/>
+      <path d="M83.188 232V220.72H81.604L78.836 221.552L79.188 223.552L80.9 223.104V232H83.188Z" fill="transparent" class="career4"/>
+      <rect x="67" y="213" width="29" height="29" rx="14.5" stroke="#022675" stroke-width="4" stroke-dasharray="92.51911926269531" class="career5"/>
+    </g>
+  </g>
+  <path d="M94 200H173.023H184" stroke="#009FDA" stroke-width="4" stroke-dasharray="92" class="career6"/>
+  <path d="M186 213V200V187L210 200L186 213Z" stroke="#009FDA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="82.58937072753906" class="career7"/>
+  <path d="M254 238C233.013 238 216 220.987 216 200H212C212 223.196 230.804 242 254 242V238ZM292 200C292 220.987 274.987 238 254 238V242C277.196 242 296 223.196 296 200H292ZM254 162C274.987 162 292 179.013 292 200H296C296 176.804 277.196 158 254 158V162ZM254 158C230.804 158 212 176.804 212 200H216C216 179.013 233.013 162 254 162V158Z" fill="transparent" class="career8"/>
+  <path d="M267 220V211.707C267 204.972 261.18 200 254 200M241 220L241 211.707C241 204.972 246.82 200 254 200M254 200C259.744 200 264 195.388 264 190C264 184.612 259.744 180 254 180C248.256 180 244 184.612 244 190C244 195.388 248.256 200 254 200Z" stroke="#165EA0" stroke-width="4" stroke-dasharray="120.47084045410156" class="career9"/>
+  <g class="career_g_2" transform="translate(267,213) scale(0,0)">
+    <g transform="translate(-267,-213)">
+      <rect x="267" y="213" width="29" height="29" rx="14.5" fill="transparent" class="career10"/>
+      <path d="M284.808 232V229.936H280.648L282.408 227.824C284.008 226.288 284.744 225.424 284.744 223.872V223.824C284.744 221.888 283.4 220.672 281.304 220.672C279.688 220.672 278.744 221.296 277.816 222.416L279.016 223.968C279.736 223.168 280.296 222.768 281.064 222.768C281.848 222.768 282.408 223.248 282.408 224.08C282.408 224.88 281.976 225.504 280.824 226.704L277.656 230.144V232H284.808Z" fill="transparent" class="career11"/>
+      <rect x="267" y="213" width="29" height="29" rx="14.5" stroke="#022675" stroke-width="4" stroke-dasharray="92.51911926269531" class="career12"/>
+    </g>
+  </g>
+  <path d="M294 200H314C336.091 200 354 182.091 354 160V130C354 113.431 367.431 100 384 100V100" stroke="#009FDA" stroke-width="4" stroke-dasharray="161.9713592529297" class="career13"/>
+  <path d="M385 113V100V87L409 100L385 113Z" stroke="#009FDA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="82.58937072753906" class="career14"/>
+  <path d="M454 138C433.013 138 416 120.987 416 100H412C412 123.196 430.804 142 454 142V138ZM492 100C492 120.987 474.987 138 454 138V142C477.196 142 496 123.196 496 100H492ZM454 62C474.987 62 492 79.0132 492 100H496C496 76.804 477.196 58 454 58V62ZM454 58C430.804 58 412 76.804 412 100H416C416 79.0132 433.013 62 454 62V58Z" fill="transparent" class="career15"/>
+  <path d="M467 120V111.707C467 104.972 461.18 100 454 100M441 120L441 111.707C441 104.972 446.82 100 454 100M454 100C459.744 100 464 95.3881 464 90C464 84.6119 459.744 80 454 80C448.256 80 444 84.6119 444 90C444 95.3881 448.256 100 454 100Z" stroke="#165EA0" stroke-width="4" stroke-dasharray="120.47118377685547" class="career16"/>
+  <g class="career_g_3" transform="translate(467,113) scale(0,0)">
+    <g transform="translate(-467,-113)">
+      <rect x="467" y="113" width="29" height="29" rx="14.5" fill="transparent" class="career17"/>
+      <path d="M484.792 128.544V128.464C484.792 126.48 483.512 125.68 482.104 125.392L484.648 122.624V120.8H477.992V122.848H481.832L479.416 125.584L479.688 127.056H480.408C481.736 127.088 482.52 127.584 482.52 128.576V128.64C482.52 129.52 481.88 130.064 480.984 130.064C480.024 130.064 479.352 129.696 478.68 129.04L477.496 130.72C478.296 131.568 479.432 132.16 481.048 132.16C483.32 132.16 484.792 130.672 484.792 128.544Z" fill="transparent" class="career18"/>
+      <rect x="467" y="113" width="29" height="29" rx="14.5" stroke="#022675" stroke-width="4" stroke-dasharray="92.51907348632812" class="career19"/>
+    </g>
+  </g>
+  <path d="M494 100H573.023H584" stroke="#009FDA" stroke-width="4" stroke-dasharray="92" class="career20"/>
+  <path d="M585 113V100V87L609 100L585 113Z" stroke="#009FDA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="82.58937072753906" class="career21"/>
+  <path d="M654 138C633.013 138 616 120.987 616 100H612C612 123.196 630.804 142 654 142V138ZM692 100C692 120.987 674.987 138 654 138V142C677.196 142 696 123.196 696 100H692ZM654 62C674.987 62 692 79.0132 692 100H696C696 76.804 677.196 58 654 58V62ZM654 58C630.804 58 612 76.804 612 100H616C616 79.0132 633.013 62 654 62V58Z" fill="transparent" class="career22"/>
+  <path d="M667 120V111.707C667 104.972 661.18 100 654 100M641 120L641 111.707C641 104.972 646.82 100 654 100M654 100C659.744 100 664 95.3881 664 90C664 84.6119 659.744 80 654 80C648.256 80 644 84.6119 644 90C644 95.3881 648.256 100 654 100Z" stroke="#165EA0" stroke-width="4" stroke-dasharray="120.47127532958984" class="career23"/>
+  <g class="career_g_4" transform="translate(667,113) scale(0,0)">
+    <g transform="translate(-667,-113)">
+      <rect x="667" y="113" width="29" height="29" rx="14.5" fill="transparent" class="career24"/>
+      <path d="M685.46 129.696V127.792H684.132V120.736H682.1L676.916 128.016L677.188 129.696H681.94V132H684.132V129.696H685.46ZM681.94 127.792H679.412L681.94 124.112V127.792Z" fill="transparent" class="career25"/>
+      <rect x="667" y="113" width="29" height="29" rx="14.5" stroke="#022675" stroke-width="4" stroke-dasharray="92.51902770996094" class="career26"/>
+    </g>
+  </g>
+  <path opacity="0.4" d="M54 160V140C54 117.909 71.9086 100 94 100H214" stroke="#33B2E1" stroke-width="4" stroke-dasharray="4 6"/>
+  <path opacity="0.4" d="M294 300H354M354 300V240C354 217.909 371.909 200 394 200H414M354 300H414" stroke="#33B2E1" stroke-width="4" stroke-dasharray="4 6"/>
+  <path opacity="0.4" d="M54 240V260C54 282.091 71.9086 300 94 300H214" stroke="#33B2E1" stroke-width="4" stroke-dasharray="4 6"/>
+  <path d="M214 300C214 277.909 231.909 260 254 260C276.091 260 294 277.909 294 300C294 322.091 276.091 340 254 340C231.909 340 214 322.091 214 300Z" fill="#165EA0"/>
+  <path d="M267 320V311.707C267 304.972 261.18 300 254 300M241 320L241 311.707C241 304.972 246.82 300 254 300M254 300C259.744 300 264 295.388 264 290C264 284.612 259.744 280 254 280C248.256 280 244 284.612 244 290C244 295.388 248.256 300 254 300Z" stroke="#022675" stroke-width="4"/>
+  <path d="M414 200C414 177.909 431.909 160 454 160C476.091 160 494 177.909 494 200C494 222.091 476.091 240 454 240C431.909 240 414 222.091 414 200Z" fill="#165EA0"/>
+  <path d="M467 220V211.707C467 204.972 461.18 200 454 200M441 220L441 211.707C441 204.972 446.82 200 454 200M454 200C459.744 200 464 195.388 464 190C464 184.612 459.744 180 454 180C448.256 180 444 184.612 444 190C444 195.388 448.256 200 454 200Z" stroke="#022675" stroke-width="4"/>
+  <path d="M214 100C214 77.9086 231.909 60 254 60C276.091 60 294 77.9086 294 100C294 122.091 276.091 140 254 140C231.909 140 214 122.091 214 100Z" fill="#165EA0"/>
+  <path d="M267 120V111.707C267 104.972 261.18 100 254 100M241 120L241 111.707C241 104.972 246.82 100 254 100M254 100C259.744 100 264 95.3881 264 90C264 84.6119 259.744 80 254 80C248.256 80 244 84.6119 244 90C244 95.3881 248.256 100 254 100Z" stroke="#022675" stroke-width="4"/>
+  <path d="M414 300C414 277.909 431.909 260 454 260C476.091 260 494 277.909 494 300C494 322.091 476.091 340 454 340C431.909 340 414 322.091 414 300Z" fill="#165EA0"/>
+  <path d="M467 320V311.707C467 304.972 461.18 300 454 300M441 320L441 311.707C441 304.972 446.82 300 454 300M454 300C459.744 300 464 295.388 464 290C464 284.612 459.744 280 454 280C448.256 280 444 284.612 444 290C444 295.388 448.256 300 454 300Z" stroke="#022675" stroke-width="4"/>
+</svg>
