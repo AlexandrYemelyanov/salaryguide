@@ -941,6 +941,11 @@ function career_send_grade_site()
          ///$mess .= !empty($comment) ? '<p>Рекомендации: '.$comment.'</p>' : '';
 
          global $wpdb;
+         // защита от дубликатов
+         $res = $wpdb->get_results("SELECT id FROM `wp_career_grade_site` WHERE `rate` = ".$rate." AND `comment` = '".$comment."'");
+         if (count($res)) {
+             return 0;
+         }
          $wpdb->query("INSERT INTO `wp_career_grade_site` (`rate`, `comment`) VALUES ('".$rate."', '".$comment."')");
 
          //echo wp_mail("mahteev@pervee.ru", 'Оценка сайта', $mess ) ? 'sended' : 'error';
@@ -956,4 +961,3 @@ function career_delete_grade_site()
     }
     die;
 }
-
