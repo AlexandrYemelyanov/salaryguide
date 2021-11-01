@@ -304,14 +304,14 @@
     max-width: 430px;
     position: fixed;
     right: 63px;
-    bottom: -188px;
+    bottom: -193px;
     z-index: 999;
 }
 #grade-form.open {
     bottom: 0;
 }
 #grade-form.close {
-    bottom: -188px;
+    bottom: -193px;
 }
 #grade-form .grade-form--close {
     border: 1px solid rgb(0, 39, 118);

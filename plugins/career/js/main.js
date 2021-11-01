@@ -560,7 +560,7 @@ jQuery(function($){
         $('#grade-form__send').removeClass('active').data('step', 1).text('Далее');
 
         $('#grade-form').animate({
-            bottom: "-188px"
+            bottom: "-193px"
         }, 1000, function() {
             $('#grade-form .grade-form--close').addClass('up');
             $.cookie('spend_time', '', { expires: 30, path: '/' });
