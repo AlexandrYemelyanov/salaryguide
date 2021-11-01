@@ -254,13 +254,28 @@
 /* star rate end  */
 
 /* rate grade */
+#grade-form .btn {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background: #009fda;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    padding: 10px 16px;
+    line-height: 1;
+    border: none;
+}
 #grade-form .rate ul {
     background-color: rgb(0, 39, 118);
     padding: 15px 30px;
 }
 #grade-form .rate ul > li.grade {
     display:inline-block;
-    padding: 15px 30px;
+    padding: 15px 29px;
     background-color: rgba(255,255,255,.1);
     color: rgba(255,255,255,.5);
     border: 1px solid rgba(255,255,255,.1);
@@ -288,9 +303,15 @@
     color: rgba(255,255,255,.9);
     max-width: 430px;
     position: fixed;
-    right: 100px;
+    right: 63px;
+    bottom: -188px;
+    z-index: 999;
+}
+#grade-form.open {
     bottom: 0;
-    display: none;
+}
+#grade-form.close {
+    bottom: -188px;
 }
 #grade-form .grade-form--close {
     border: 1px solid rgb(0, 39, 118);
@@ -315,6 +336,9 @@
     cursor: pointer;
     border: none;
 }
+#grade-form .grade-form--close.up span{
+    transform: rotate(270deg) scale(1, 1.6);
+}
 #grade-form .grade-form--title, #grade-form .grade-form--footer {
     padding: 15px 30px;
     background-color: rgb(0, 39, 118);
@@ -331,9 +355,22 @@
     border-right: none;
     border-left: none;
 }
-.btn--transparent {
+#grade-form textarea {
+    width: 100%;
+}
+#grade-form .btn--big {
+    font-size: 16px;
+    padding: 14px 24px;
+}
+#grade-form .btn--transparent {
     background-color: rgba(255,255,255,.1);
     color: rgba(255,255,255,.5);
+}
+@media (max-width: 420px) {
+    #grade-form {
+        right: 0;
+        width: 100%;
+    }
 }
 /* rate grade */
 

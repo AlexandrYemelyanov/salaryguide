@@ -101,8 +101,8 @@
     Оцените ресурс
 </button-->
 <!-- End wrapper -->
-<form id="grade-form" class="">
-    <div class="grade-form--close"><span>></span></div>
+<form id="grade-form" class="close">
+    <div class="grade-form--close up"><span>></span></div>
     <div class="grade-form--title">
         Оцените пожалуйста ресурс:
     </div>
